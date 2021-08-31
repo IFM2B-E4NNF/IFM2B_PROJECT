@@ -139,7 +139,9 @@ section {
   background: #549da0;
   color: #ffffff;
 }
-
+#packages{
+    background-color: var(--primary-color);
+}
 
 footer {
   background: #353535;
