@@ -3,7 +3,7 @@
 html {
   --bg-color: #ffffff;
   --text-color: #000000;
-  --primary-color: #549da0;
+  --primary-color: #27abaf;
   --neutral-color: #284b63;
   --secondary-color: #f38222;
 }
@@ -87,7 +87,7 @@ body {
 
 header {
   color: #ffffff;
-  background-color: #284b63;
+  background-color: var(--primary-color);
   padding: 80px 0;
   text-align: center;
 }
@@ -110,14 +110,14 @@ h2 {
   color: white;
   font-weight: 500;
   font-size: 20px;
-  background: var(--primary-color);
+  background: var(--secondary-color);
   border: none;
   border-radius: 5px;
   padding: 12px 16px;
   cursor: pointer;
 }
 .btn:hover {
-  background: #468486;
+  background: #e9a366;
 }
 section {
   text-align: center;
