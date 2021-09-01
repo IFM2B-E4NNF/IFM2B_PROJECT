@@ -8,6 +8,7 @@
     <title>Academia® | Tutors</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.9/tailwind.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -20,9 +21,12 @@
                 </button>
                 <ul class="nav__wrapper">
                     <li class="nav__item"><a href="index.html">Home</a></li>
-                    <li class="nav__item"><a href="#about">About</a></li>
-                    <li class="nav__item"><a href="#packages">Services</a></li>
-                    <li class="nav__item"><a href="login.html">Register/Login</a></li>
+                    <li class="nav__item"><a href="#about">Search</a></li>
+                    <li class="nav__item"><a href="cart.html">Cart<i class="fas fa fa-shopping-cart fa-lg"></i>
+                        <span class="cart-basket d-flex align-items-center justify-content-center">
+                          0
+                        </span></a></li>
+                    <li class="nav__item"><a href="index.html">Logout</a></li>
                 </ul>
             </div>
         </div>
@@ -30,100 +34,81 @@
 
     <div class="bg-white">
         <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h2 class="sr-only">Products</h2>
+            <h2 class="">Tutors</h2>
 
-            <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-                <a href="#" class="group">
+            <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
+                <div class="group">
                     <div
                         class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                         <img src="images/tutors/tutor1.png"
                             class="w-full h-full object-center object-cover group-hover:opacity-75">
                     </div>
                     <h1 class="mt-4 text-lg font-large text-blue"> Refilwe King</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
+                    <p class="mt-1 text-sm font-medium text-yellow-500 text-yellow-500">
                         Based in Johannesburg, South Africa.
                     </p>
                     <h3 class="mt-4 text-sm text-gray-700">
                         Vibrant college student with experience in Maths tutoring Grade 12 level.
                     </h3>
 
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
+                    <p class="mt-1 text-lg font-medium text-yellow-500 text-yellow-500">
                         R70 /Session
                     </p>
                     <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        class="bg-yellow-500 text-white active:bg-yellow-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button">
                         Add to Cart
                     </button>
-                </a>
+                </div>
 
-                <a href="#" class="group">
+                <div class="group">
                     <div
                         class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                         <img src="images/tutors/tutor2.jpg"
                             class="w-full h-full object-center object-cover group-hover:opacity-75">
                     </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Gino Kelly</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
+                    <h1 class="mt-4 text-lg font-large"> Gino Kelly</h1>
+                    <p class="mt-1 text-sm font-medium text-yellow-500">
                         Based in Johannesburg, South Africa.
                     </p>
                     <h3 class="mt-4 text-sm text-gray-700">
                         An engineering enthusiast student offering lessons in Physics Grade 10.
                     </h3>
 
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
+                    <p class="mt-1 text-lg font-medium text-yellow-500">
                         R150 /Session
                     </p>
                     <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        class="bg-yellow-500 text-white active:bg-yellow-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button">
                         Add to Cart
                     </button>
-                </a>
+                </div>
 
-                <a href="#" class="group">
-                    <div
-                        class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                        <img src="images/tutors/tutor3.png"
-                            class="w-full h-full object-center object-cover group-hover:opacity-75">
-                    </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Countess Samy</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
-                        Based in Pretoria, South Africa.
-                    </p>
-                    <h3 class="mt-4 text-sm text-gray-700">
-                        Qualified Physical Science teacher offering lessons up to Grade 12.
-                    </h3>
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
-                        R 150 /Session
-                    </p>
-                </a>
-
-                <a href="#" class="group">
+                <div class="group">
                     <div
                         class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                         <img src="images/tutors/tutor4.png"
                             alt="Hand holding black machined steel mechanical pencil with brass tip and top."
                             class="w-full h-full object-center object-cover group-hover:opacity-75">
                     </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Effie Escandalo</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
+                    <h1 class="mt-4 text-lg font-large"> Effie Escandalo</h1>
+                    <p class="mt-1 text-sm font-medium text-yellow-500 text-yellow-500">
                         Based in Pretoria, South Africa.
                     </p>
                     <h3 class="mt-4 text-sm text-gray-700">
                         Undergraduate student, offering lessons in English home language Grade 12.
                     </h3>
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
+                    <p class="mt-1 text-lg font-medium text-yellow-500 text-yellow-500">
                         R 100 /Session
                     </p>
                     <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        class="bg-yellow-500 text-white active:bg-yellow-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button">
                         Add to Cart
                     </button>
-                </a>
+                </div>
 
-                <!-- More products... -->
             </div>
         </div>
     </div>
@@ -131,103 +116,77 @@
         <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
             <h2 class="sr-only">Products</h2>
 
-            <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-                <a href="#" class="group">
+            <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
+                <div href="#" class="group">
                     <div
                         class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                         <img src="images/tutors/tutor1.png"
                             class="w-full h-full object-center object-cover group-hover:opacity-75">
                     </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Refilwe King</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
+                    <h1 class="mt-4 text-lg font-large">Asive Mageba</h1>
+                    <p class="mt-1 text-sm font-medium text-yellow-500">
                         Based in Johannesburg, South Africa.
                     </p>
                     <h3 class="mt-4 text-sm text-gray-700">
                         Vibrant college student with experience in Maths tutoring Grade 12 level.
                     </h3>
 
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
+                    <p class="mt-1 text-lg font-medium text-yellow-500">
                         R70 /Session
                     </p>
                     <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        class="bg-yellow-500 text-white active:bg-yellow-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button">
                         Add to Cart
                     </button>
-                </a>
+                </div>
 
-                <a href="#" class="group">
+                <div class="group">
                     <div
                         class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                        <img src="images/tutors/tutor2.jpg"
+                        <img src="images/tutors/tutor5.png"
                             class="w-full h-full object-center object-cover group-hover:opacity-75">
                     </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Gino Kelly</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
+                    <h1 class="mt-4 text-lg font-large"> Gugu Dlamini</h1>
+                    <p class="mt-1 text-sm font-medium text-yellow-500">
                         Based in Johannesburg, South Africa.
                     </p>
                     <h3 class="mt-4 text-sm text-gray-700">
                         An engineering enthusiast student offering lessons in Physics Grade 10.
                     </h3>
 
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
+                    <p class="mt-1 text-lg font-medium text-yellow-500">
                         R150 /Session
                     </p>
                     <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        class="bg-yellow-500 text-white active:bg-yellow-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button">
                         Add to Cart
                     </button>
-                </a>
+                </div>
 
-                <a href="#" class="group">
+                <div class="group">
                     <div
                         class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                        <img src="images/tutors/tutor3.png"
+                        <img src="images/tutors/tutor2.jpg"
                             class="w-full h-full object-center object-cover group-hover:opacity-75">
                     </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Countess Samy</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
+                    <h1 class="mt-4 text-lg font-large">Kamo Maleko</h1>
+                    <p class="mt-1 text-sm font-medium text-yellow-500">
                         Based in Pretoria, South Africa.
                     </p>
                     <h3 class="mt-4 text-sm text-gray-700">
                         Qualified Physical Science teacher offering lessons up to Grade 12.
                     </h3>
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
+                    <p class="mt-1 text-lg font-medium text-yellow-500">
                         R150 /Session
                     </p>
                     <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        class="bg-yellow-500 text-white active:bg-yellow-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button">
                         Add to Cart
                     </button>
-                </a>
-
-                <a href="#" class="group">
-                    <div
-                        class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                        <img src="images/tutors/tutor4.png"
-                            alt="Hand holding black machined steel mechanical pencil with brass tip and top."
-                            class="w-full h-full object-center object-cover group-hover:opacity-75">
-                    </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Effie Escandalo</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
-                        Based in Pretoria, South Africa.
-                    </p>
-                    <h3 class="mt-4 text-sm text-gray-700">
-                        Undergraduate student, offering lessons in English home language Grade 12.
-                    </h3>
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
-                        R 100 /Session
-                    </p>
-                    <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                        type="button">
-                        Add to Cart
-                    </button>
-                </a>
-
-                <!-- More products... -->
+                </a> 
             </div>
         </div>
     </div>
@@ -236,101 +195,88 @@
         <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
             <h2 class="sr-only">Products</h2>
 
-            <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-                <a href="#" class="group">
+            <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
+                <div class="group">
                     <div
                         class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                         <img src="images/tutors/tutor1.png"
                             class="w-full h-full object-center object-cover group-hover:opacity-75">
                     </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Refilwe King</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
+                    <h1 class="mt-4 text-lg font-large">Kagiso Madiba</h1>
+                    <p class="mt-1 text-sm font-medium text-yellow-500">
                         Based in Johannesburg, South Africa.
                     </p>
                     <h3 class="mt-4 text-sm text-gray-700">
                         Vibrant college student with experience in Maths tutoring Grade 12 level.
                     </h3>
 
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
+                    <p class="mt-1 text-lg font-medium text-yellow-500">
                         R70 /Session
                     </p>
                     <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        class="bg-yellow-500 text-white active:bg-yellow-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button">
                         Add to Cart
                     </button>
-                </a>
+                </div>
 
-                <a href="#" class="group">
+                <div class="group">
                     <div
                         class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                        <img src="images/tutors/tutor2.jpg"
+                        <img src="images/tutors/tutor5.png"
                             class="w-full h-full object-center object-cover group-hover:opacity-75">
                     </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Gino Kelly</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
-                        Based in Johannesburg, South Africa.
+                    <h1 class="mt-4 text-lg font-large">Stallion Kelly</h1>
+                    <p class="mt-1 text-sm font-medium text-yellow-500">
+                        Based in Durban, South Africa.
                     </p>
                     <h3 class="mt-4 text-sm text-gray-700">
-                        An engineering enthusiast student offering lessons in Physics Grade 10.
+                        An engineering enthusiast student offering lessons in Programming Modules TUT.
                     </h3>
 
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
-                        R150 /Session
+                    <p class="mt-1 text-lg font-medium text-yellow-500">
+                        R170 /Session
                     </p>
                     <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        class="bg-yellow-500 text-white active:bg-yellow-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button">
                         Add to Cart
                     </button>
-                </a>
+                </div>
 
-                <a href="#" class="group">
-                    <div
-                        class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                        <img src="images/tutors/tutor3.png"
-                            class="w-full h-full object-center object-cover group-hover:opacity-75">
-                    </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Countess Sammy</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900 text-yellow-500">
-                        Based in Pretoria, South Africa.
-                    </p>
-                    <h3 class="mt-4 text-sm text-gray-700">
-                        Qualified Physical Science teacher offering lessons up to Grade 12.
-                    </h3>
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
-                        R 150 /Session
-                    </p>
-                </a>
-
-                <a href="#" class="group">
+                <div class="group">
                     <div
                         class="w-full aspect-w-1 aspect-h-1 bg-white-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                         <img src="images/tutors/tutor4.png"
                             alt="Hand holding black machined steel mechanical pencil with brass tip and top."
                             class="w-full h-full object-center object-cover group-hover:opacity-75">
                     </div>
-                    <h1 class="mt-4 text-lg font-large" color="#549da0"> Effie Escandalo</h1>
-                    <p class="mt-1 text-sm font-medium text-gray-900" color=" #f38222">
-                        Based in Pretoria, South Africa.
+                    <h1 class="mt-4 text-lg font-large">Scofield Markey</h1>
+                    <p class="mt-1 text-sm font-medium text-yellow-500">
+                        Based in Cape Town, South Africa.
                     </p>
                     <h3 class="mt-4 text-sm text-gray-700">
-                        Undergraduate student, offering lessons in English home language Grade 12.
+                        Undergraduate student, offering lessons in CAT and Maths Grade 12.
                     </h3>
-                    <p class="mt-1 text-lg font-medium text-gray-900" color=" #f38222">
+                    <p class="mt-1 text-lg font-medium text-yellow-500">
                         R 100 /Session
                     </p>
                     <button
-                        class="bg-purple-500 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        class="bg-yellow-500 text-white active:bg-yellow-600 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button">
                         Add to Cart
                     </button>
-                </a>
+                </div>
 
-                <!-- More products... -->
             </div>
         </div>
     </div>
+    <script>
+        let cartItems = parseInt(document.getElementsByTagName("span")[0].value);
+        document.getElementById("myBtn").addEventListener("click", cartItems++);
+        document.getElementById("myBtn1").addEventListener("click", cartItems++);
+        document.getElementsByTagName("span")[0].innerHTML = cartItems;
+    </script>
 </body>
 
 </html>
