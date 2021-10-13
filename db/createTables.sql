@@ -1,0 +1,24 @@
+DROP TABLE IF EXISTS Users, Tutors CASCADE;
+CREATE TABLE Users(
+    UserID SERIAL PRIMARY KEY,
+    Cart int NOT NULL,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Education VARCHAR(30) NOT NULL,
+    Address VARCHAR(200) NOT NULL,
+    Phone DECIMAL(13) NOT NULL,
+    Email VARCHAR(100) NOT NULL,
+    City VARCHAR(20) NOT NULL,
+    Province VARCHAR(20) NOT NULL,
+    Zip int NOT NULL,
+    Password VARCHAR(16) NOT NULL 
+    );
+
+CREATE TABLE Tutors(
+    TutorID SERIAL PRIMARY KEY,
+    UserID INT NOT NULL,
+    Description VARCHAR(300) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    Classes INT NOT NULL,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
