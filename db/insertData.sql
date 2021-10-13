@@ -26,3 +26,5 @@ VALUES
         2285,
         'Admin1'
     );
+
+    Inter
