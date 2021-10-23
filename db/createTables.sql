@@ -6,7 +6,6 @@ CREATE TABLE Users(
     LastName VARCHAR(50) NOT NULL,
     Education VARCHAR(30) NOT NULL,
     Address VARCHAR(200) NOT NULL,
-    Phone DECIMAL(13) NOT NULL,
     Email VARCHAR(100) NOT NULL,
     City VARCHAR(20) NOT NULL,
     Province VARCHAR(20) NOT NULL,
