@@ -58,8 +58,8 @@
                     </div>
       
                     <div class="col-span-6 sm:col-span-3 lg:col-span-2">
-                      <label for="state" class="block text-sm font-medium text-gray-700">State / Province<a style="color:dimgray;">*</a></label>
-                      <input type="text" name="state" id="state" required="required" class="border border-gray mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                      <label for="province" class="block text-sm font-medium text-gray-700">province / Province<a style="color:dimgray;">*</a></label>
+                      <input type="text" name="province" id="province" required="required" class="border border-gray mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
                     </div>
       
                     <div class="col-span-6 sm:col-span-3 lg:col-span-2">
@@ -79,7 +79,7 @@
                   <p id = "message"></p>
                 </div>
                 <div class="px-4 py-3 bg-gray-50 text-center sm:px-6">
-                  <button type="button" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  <button id = "btnRegister" type="button" onclick = "register()" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     <a href="home.html">Register</a>                 
                   </button>
                 </div>
@@ -98,6 +98,7 @@
                 </div>
             </form>
           </div>
+          <script src = "/index.js"></script>
           <script>
             function validateInput(){
               
