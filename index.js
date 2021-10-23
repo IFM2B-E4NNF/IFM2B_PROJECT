@@ -13,8 +13,24 @@ navToggle.addEventListener("click", function () {
 });
 
 //------------------------ Register ----------------------
-function register(){
-  
+function register(userObj){
+  const query = {
+    text: "INSERT INTO users(fullName, age, date, time, assistantName, comments) VALUES($1,$2,$3,$4,$5,$6)",
+    values: [
+      userObj.fullName,
+      userObj.age,
+      userObj.date,
+      userObj.time,
+      userObj.assistantName,
+      userObj.comments,
+    ],
+  };
+  pool.query(query, (error, results) => {
+    if (error) {
+      throw error;
+    }
+    console.log("User Saved");
+  });
 }
 
 //------------------------ For Users ----------------------
